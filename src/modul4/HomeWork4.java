@@ -8,6 +8,9 @@ public class HomeWork4 {
         drawRectangle(5, 4);
         System.out.println();
         drawRectangle(3);
+        System.out.println();
+        //getMax(2,4);
+        System.out.println(getMax(0.5f, 0.6f));
 
     }
 
@@ -39,4 +42,32 @@ public class HomeWork4 {
         }
 
     }
+    public static int getMax(int a, int b){
+        int max;
+        if (a > b) {
+            max = a;
+        }else {
+            max = b;
+        }
+        return max;
+    }
+    public static float getMax(float a, float b) {
+        float max;
+        if (a > b) {
+            max = a;
+        } else {
+            max = b;
+        }
+        return max;
+    }
+    public static double getMax(double a, double b) {
+        double max;
+        if (a > b) {
+            max = a;
+        } else {
+            max = b;
+        }
+        return max;
+    }
+
 }
